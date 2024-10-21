@@ -180,16 +180,16 @@ const Home: NextPage = () => {
       <div className={styles.contentContainer}>
         <div>
           <h1 className={styles.title}>
-            VerifierPlus
+            OpSecId VerifierPlus
           </h1>
         </div>
         <div>
           <p className={styles.descriptionBlock}>
-            VerifierPlus allows users to verify any <Link href='faq#supported'>supported</Link> digital academic credential.
-            This site is hosted by
+            OpSecId VerifierPlus allows users to verify any <Link href='faq#supported'>supported</Link> digital credential.
+            This site is a customized version of the VerifierPlus by
              the <a href='https://digitalcredentials.mit.edu/'>Digital Credentials Consortium</a>
              , a network of leading international universities designing an open
-              infrastructure for digital academic credentials. <Link href='faq#trust'>Why trust us?</Link>
+              infrastructure for digital academic credentials. <Link href='faq#trust'>Find out more.</Link>
           </p>
         </div>
         <Button
