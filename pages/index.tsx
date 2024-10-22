@@ -32,7 +32,7 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     document.documentElement.lang = "en";
-    document.title = "VerifierPlus Home page";
+    document.title = "VcVérif Home page";
     const handlePopstate = () => {
       if (window.location.hash === '/') {  
         setCredential(undefined);
@@ -180,12 +180,12 @@ const Home: NextPage = () => {
       <div className={styles.contentContainer}>
         <div>
           <h1 className={styles.title}>
-            OpSecId VerifierPlus
+            OpSecId VcVérif
           </h1>
         </div>
         <div>
           <p className={styles.descriptionBlock}>
-            OpSecId VerifierPlus allows users to verify any <Link href='faq#supported'>supported</Link> digital credential.
+            OpSecId VcVérif allows users to verify any <Link href='faq#supported'>supported</Link> digital credential.
             This site is a customized version of the VerifierPlus by
              the <a href='https://digitalcredentials.mit.edu/'>Digital Credentials Consortium</a>
              , a network of leading international universities designing an open

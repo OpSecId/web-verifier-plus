@@ -9,14 +9,14 @@ const Faq: NextPage = () => {
 
   useEffect(() => {
     document.documentElement.lang = "en";
-    document.title = "VerifierPlus Home page";
+    document.title = "VcVérif Home page";
   }, []);
 
   return (
     <main className={styles.main}>
       <TopBar hasLogo={true} isDark={isDark} setIsDark={setIsDark}/>
       <div className={styles.textContent}>
-        <h1 className={styles.title}>OpSecId VerifierPlus Frequently Asked Questions</h1>
+        <h1 className={styles.title}>Frequently Asked Questions</h1>
         <h2 id="trust">Why this service?</h2>
         <p>Expand open digital credential frameworks towards supply-chain and experimentation.</p>
         <p>This website implements <a href='https://github.com/digitalcredentials'>open source libraries</a> that support open technical standards for supported digital credentials.</p>
@@ -49,7 +49,7 @@ const Faq: NextPage = () => {
         <p>Users of the OpSecId Discovery Wallet mobile app are able to “<a href='https://lcw.app/faq.html#public-link'>Create Public Links</a>” if they wish to share a credential from their wallet to anyone with the link. Please see the <a href='https://lcw.app/faq.html'>Learner Credential Wallet FAQ</a> for more information.</p>
           
         <h2>Who do I contact if I have more questions?</h2>
-        <p>For questions about the OpSecId VerifierPlus please email contact -at- opsecid -dot- ca.</p>
+        <p>For questions about VcVérif please email contact -at- opsecid -dot- ca.</p>
         <p>To learn more about OpSecId please visit us at <a href='https://opsecid.ca'>opsecid.ca</a>.</p>
 
       </div>
