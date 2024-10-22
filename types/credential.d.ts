@@ -8,31 +8,42 @@ export type IssuerObject = {
 }
 export type Issuer = IssuerURI | IssuerObject;
 
-export type CreditValue = {
-  value?: string;
-}
-
-export type CompletionDocument = {
+export type Product = {
   readonly type?: string;
-  readonly identifier?: string;
+  readonly id?: string;
   readonly name?: string;
   readonly description?: string;
-  readonly numberOfCredits?: CreditValue;
-  readonly startDate?: string;
-  readonly endDate?: string;
 }
 
-export type EducationalOperationalCredentialExtensions = {
-  readonly type?: string[];
-  readonly awardedOnCompletionOf?: CompletionDocument;
-}
-
-export type EducationalOperationalCredential = EducationalOperationalCredentialExtensions & {
-  readonly id: string;
+export type Facility = {
+  readonly type?: string;
+  readonly id?: string;
   readonly name?: string;
   readonly description?: string;
-  readonly competencyRequired?: string;
-  readonly credentialCategory?: string;
+}
+
+export type ConformityAssessment = {
+  readonly type?: string;
+  readonly name?: string;
+  readonly description?: string;
+  readonly assessedProduct?: Product[];
+  readonly assessedFacility?: Facility[];
+}
+
+export type ConformityAttestationExtension = {
+  readonly type?: string;
+  readonly assessment?: ConformityAssessment[];
+}
+
+export type ConformityAttestation = ConformityAttestationExtension  & {
+  readonly name?: string;
+  readonly description?: string;
+}
+
+export type DigitalConformityCredential = {
+  readonly type?: string;
+  readonly name?: string;
+  readonly description?: string;
 }
 
 export type OpenBadgeAchievement = {

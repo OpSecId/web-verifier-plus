@@ -189,7 +189,7 @@ const Home: NextPage = () => {
             This site is a customized version of the VerifierPlus by
              the <a href='https://digitalcredentials.mit.edu/'>Digital Credentials Consortium</a>
              , a network of leading international universities designing an open
-              infrastructure for digital academic credentials. <Link href='faq#trust'>Find out more.</Link>
+              infrastructure for digital credentials.
           </p>
         </div>
         <Button

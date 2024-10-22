@@ -16,17 +16,31 @@ const Faq: NextPage = () => {
     <main className={styles.main}>
       <TopBar hasLogo={true} isDark={isDark} setIsDark={setIsDark}/>
       <div className={styles.textContent}>
-        <h1 className={styles.title}>VerifierPlus Frequently Asked Questions</h1>
-        <h2 id="trust">Why trust us?</h2>
-        <p>The Digital Credentials Consortium is a member organization comprised of <a href='https://digitalcredentials.mit.edu/#dcc-members'>leading universities</a> in North America and Europe that are working together to create an infrastructure for digital academic credentials that can support the education systems of the future.</p>
-        <p>This website implements <a href='https:/https://github.com/digitalcredentials'>open source libraries</a> that support open technical standards for supported digital credentials.</p>
-        <p>This service is maintained by <a href='https://openlearning.mit.edu'>MIT Open Learning</a> at the Massachusetts Institute of Technology. Please contact verifierplus-support -at- mit -dot- edu with any questions.</p>
+        <h1 className={styles.title}>OpSecId VerifierPlus Frequently Asked Questions</h1>
+        <h2 id="trust">Why this service?</h2>
+        <p>Expand open digital credential frameworks towards supply-chain and experimentation.</p>
+        <p>This website implements <a href='https://github.com/digitalcredentials'>open source libraries</a> that support open technical standards for supported digital credentials.</p>
+        <p>This service is maintained by <a href='https://opsecid.ca'>Open Security and Identity</a>. </p>
 
-        <h2 id="supported">What formats of digital academic credentials are supported?</h2>
-        <p>VerifierPlus supports digital academic credentials:</p>
+        <h2 id="supported">What formats of digital credentials are supported?</h2>
+        <p>W3C</p>
         <ul>
-          <li>Using the W3C Verifiable Credential Data Model v1.1.</li>
-          <li>Expressed as Open Badges v3</li>
+          <li>VC Data Model v2.0</li>
+          {/* <li>Embeded Proof Securing Mechanism</li>
+          <li>Eveloped Proof Securing Mechanism</li> */}
+          {/* <li>VC Data Integrity</li> */}
+          {/* <li>Ed25519Signature2020</li>
+          <li>eddsa-rdfc-2022</li>
+          <li>eddsa-jcs-2022</li> */}
+          <li>VC Bitstring Status List</li>
+          {/* <li>VC Jose Cose</li> */}
+        </ul>
+        <p>UNTP</p>
+        <ul>
+          <li>DigitalIdentityAnchor</li>
+          <li>DigitalProductPassport</li>
+          <li>DigitalTraceabilityEvent</li>
+          <li>DigitalConformityCredential</li>
         </ul>
         
 
@@ -39,11 +53,11 @@ const Faq: NextPage = () => {
         
 
         <h2>What is a {"Public Link"}?</h2>
-        <p>Users of the Learner Credential Wallet mobile app are able to “<a href='https://lcw.app/faq.html#public-link'>Create Public Links</a>” if they wish to share a credential from their wallet to anyone with the link. Please see the <a href='https://lcw.app/faq.html'>Learner Credential Wallet FAQ</a> for more information.</p>
+        <p>Users of the OpSecId Discovery Wallet mobile app are able to “<a href='https://lcw.app/faq.html#public-link'>Create Public Links</a>” if they wish to share a credential from their wallet to anyone with the link. Please see the <a href='https://lcw.app/faq.html'>Learner Credential Wallet FAQ</a> for more information.</p>
           
         <h2>Who do I contact if I have more questions?</h2>
-        <p>For questions about the VerifierPlus please email verifierplus-support -at- mit -dot- edu.</p>
-        <p>To learn more about the DCC please visit us at <a href='https://digitalcredentials.mit.edu'>digitalcredentials.mit.edu</a>.</p>
+        <p>For questions about the OpSecId VerifierPlus please email contact -at- opsecid -dot- ca.</p>
+        <p>To learn more about OpSecId please visit us at <a href='https://opsecid.ca'>opsecid.ca</a>.</p>
 
       </div>
       <BottomBar isDark={isDark}/>
