@@ -9,7 +9,7 @@ const Faq: NextPage = () => {
 
   useEffect(() => {
     document.documentElement.lang = "en";
-    document.title = "VcVérif Home page";
+    document.title = "VcVérif";
   }, []);
 
   return (

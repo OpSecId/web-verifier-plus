@@ -32,7 +32,7 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     document.documentElement.lang = "en";
-    document.title = "VcVérif Home page";
+    document.title = "VcVérif";
     const handlePopstate = () => {
       if (window.location.hash === '/') {  
         setCredential(undefined);
