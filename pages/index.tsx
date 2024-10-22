@@ -180,12 +180,12 @@ const Home: NextPage = () => {
       <div className={styles.contentContainer}>
         <div>
           <h1 className={styles.title}>
-            OpSecId VcVérif
+            VcVérif
           </h1>
         </div>
         <div>
           <p className={styles.descriptionBlock}>
-            OpSecId VcVérif allows users to verify any <Link href='faq#supported'>supported</Link> digital credential.
+            VcVérif allows users to verify any <Link href='faq#supported'>supported</Link> digital credential.
             This site is a customized version of the VerifierPlus by
              the <a href='https://digitalcredentials.mit.edu/'>Digital Credentials Consortium</a>
              , a network of leading international universities designing an open
